@@ -32,7 +32,7 @@ export default function Experience(experience: ExperienceProps) {
 
                 </div>
 
-                <div>
+                <div className="max-w-6xl">
                     {experience.experiences.map((exp, index) => (
                         <ExperienceCard key={index} {...exp} />
                     ))}
